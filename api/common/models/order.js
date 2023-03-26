@@ -507,7 +507,7 @@ module.exports = function (Order) {
             ctx.req.socket.remoteAddress ||
             ctx.req.connection.socket.remoteAddress;
         const dateFormat = require("dateformat");
-        const date = new Date();
+        const date = Date.now();
         let vnp_Params = {};
         const createDate = dateFormat(date, "yyyymmddHHmmss");
         const orderId = dateFormat(date, "HHmmss");
@@ -532,6 +532,7 @@ module.exports = function (Order) {
         let signed = hmac.update(Buffer.from(signData, "utf-8")).digest("hex");
         vnp_Params["vnp_SecureHash"] = signed;
         vnpUrl += "?" + querystring.stringify(vnp_Params, { encode: false });
+        console.log(vnpUrl);
         return vnpUrl;
     };
     const sortObject = (obj) => {

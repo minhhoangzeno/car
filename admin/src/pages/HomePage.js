@@ -1,10 +1,8 @@
-import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { Redirect, Route, Switch } from "react-router-dom";
 import Footer from "../components/Footer";
 import Preloader from "../components/Preloader";
-import { apiUrl } from '../enviroment';
 import { request } from '../helper/request.helper';
 import { login } from '../redux/authSlice';
 import { Routes } from "../routes";

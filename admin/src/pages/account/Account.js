@@ -1,26 +1,22 @@
-import { faEdit, faEye, faTrashAlt } from '@fortawesome/free-regular-svg-icons';
+import { faEdit, faTrashAlt } from '@fortawesome/free-regular-svg-icons';
 import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Button, ButtonGroup, Card, Col, Container, Dropdown, Nav, Row, Table } from '@themesberg/react-bootstrap';
-import axios from "axios";
+import { Button, ButtonGroup, Card, Container, Dropdown, Nav, Row, Table } from '@themesberg/react-bootstrap';
 import React, { useEffect, useState } from 'react';
 import Pagination from 'react-js-pagination';
-import { useHistory } from 'react-router-dom';
 import { useToasts } from 'react-toast-notifications';
-import { apiUrl, token } from '../../enviroment';
 import { request } from '../../helper/request.helper';
-import { Routes } from '../../routes';
 import Loading from '../layout/Loading';
 import AccountEditRole from './AccountEditRole';
 
-const access_token = localStorage.getItem("token")
+
 
 export default () => {
   const [accounts, setAccounts] = useState({
     total: 0,
     data: []
   });
-  let history = useHistory();
+  
   const [activePage, setActivePage] = useState(1);
   const [limit, setLimit] = useState(5);
   const [loading, setLoading] = useState(false);
@@ -119,7 +115,7 @@ function TableItem({ index, account, search }) {
 
     })
   }
-  let history = useHistory();
+  
 
   return (
     <tr>

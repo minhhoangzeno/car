@@ -1,14 +1,11 @@
 import { Button, Container, Form, InputGroup, Row } from '@themesberg/react-bootstrap';
-import axios from 'axios';
 import React from 'react';
 import { Controller, useForm } from "react-hook-form";
 import { useHistory, useLocation } from 'react-router-dom';
 import { useToasts } from 'react-toast-notifications';
-import { apiUrl } from '../../enviroment';
 import { request } from '../../helper/request.helper';
 import { Routes } from '../../routes';
 
-const access_token = localStorage.getItem("token")
 
 export default () => {
   const { control, handleSubmit, formState: { errors } } = useForm();

@@ -1,4 +1,3 @@
-import axios from 'axios';
 import {
   BarElement, CategoryScale, Chart as ChartJS, Legend, LinearScale, Title,
   Tooltip
@@ -7,7 +6,6 @@ import React, { useEffect, useState } from 'react';
 import { Bar } from 'react-chartjs-2';
 import DatePicker from "react-multi-date-picker";
 import { useDispatch } from 'react-redux';
-import { apiUrl } from '../../enviroment';
 import { request } from '../../helper/request.helper';
 
 
@@ -19,14 +17,13 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-const access_token = localStorage.getItem("token");
 
 export default () => {
 
   const [year, setYear] = useState(new Date());
   const [labels, setLabels] = useState([]);
   const [dataAmount, setDataAmount] = useState([]);
-  let dispatch = useDispatch();
+  
   const search = async () => {
     request({
       method: 'GET',

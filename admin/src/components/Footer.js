@@ -144,7 +144,7 @@ export default (props) => {
                 target="_blank"
                 className="text-blue text-decoration-none fw-normal"
               >
-                TheFace
+                Playstation
               </Card.Link>
             </p>
           </Col>

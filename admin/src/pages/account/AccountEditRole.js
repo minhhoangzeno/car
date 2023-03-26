@@ -1,17 +1,13 @@
 import { Dropdown } from '@themesberg/react-bootstrap';
-import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { useToasts } from 'react-toast-notifications';
-import { apiUrl } from '../../enviroment';
 import { request } from '../../helper/request.helper';
 
-const access_token = localStorage.getItem("token");
 export default ({ show, handleClose, role, search, accountId }) => {
-  let dispatch = useDispatch();
   const { control, handleSubmit, formState: { errors } } = useForm();
   let { addToast } = useToasts();
   

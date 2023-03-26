@@ -115,7 +115,7 @@ export default function ProvideAuth() {
 
             {/* tag */}
             <RouteWithSidebar exact path={Routes.Tag.path} component={Tag} />
-            <RouteWithSidebar exact path={Routes.TagAdd.path} component={TagAdd} />
+             <RouteWithSidebar exact path={Routes.TagAdd.path} component={TagAdd} /> 
             <RouteWithSidebar exact path={Routes.TagEdit.path} component={TagEdit} />
 
             {/* category-product */}

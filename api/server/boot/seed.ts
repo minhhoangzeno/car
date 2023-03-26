@@ -38,7 +38,7 @@ module.exports = function (app: App) {
       });
     });
   };
-  return;
+   return;
   // auto update
 
   (async () => {
@@ -102,10 +102,10 @@ module.exports = function (app: App) {
     accounts.push({
       id: 1,
       username: `super-admin`,
-      email: 'super-admin@bfast-vn.net',
+      email: 'super-admin@gmail.com',
       password: '1',
-      firstName: 'Adams',
-      lastName: 'Ansel',
+      firstName: 'Super',
+      lastName: 'Admin',
       city: 1,
       district: 1,
       phoneNumber: 123456789
@@ -114,10 +114,10 @@ module.exports = function (app: App) {
     accounts.push({
       id: 2,
       username: `admin`,
-      email: 'admin@bfast-vn.net',
+      email: 'admin@gmail.net',
       password: '1',
-      firstName: 'Elizabeth',
-      lastName: 'Queen',
+      firstName: 'Admin',
+      lastName: 'Admin',
       city: 1,
       district: 1,
       phoneNumber: 123456789
@@ -127,7 +127,7 @@ module.exports = function (app: App) {
     accounts.push({
       id: 3,
       username: `userstandard`,
-      email: 'userstandard@bfast-vn.net',
+      email: 'userstandard@vn.net',
       password: '1',
       firstName: 'Great',
       lastName: 'Britain',
@@ -139,30 +139,18 @@ module.exports = function (app: App) {
 
     accounts.push({
       id: 4,
-      username: `hoangminh`,
-      email: 'hoangminh@bfast-vn.net',
+      username: `thanhbinh`,
+      email: 'thanhbinh@vn.net',
       password: '1',
-      firstName: 'Hoang',
-      lastName: 'Minh',
+      firstName: 'Thanh',
+      lastName: 'Binh',
       city: 1,
       district: 1,
       phoneNumber: 123456789
 
     } as Account);
 
-    accounts.push({
-      id: 5,
-      username: `minhhoang`,
-      email: 'minhhoang@bfast-vn.net',
-      password: '1',
-      firstName: 'Minh',
-      lastName: 'Hoang',
-      city: 1,
-      district: 1,
-      phoneNumber: 123456789
-
-    } as Account);
-
+   
 
 
     for (let account of accounts) {
@@ -175,8 +163,6 @@ module.exports = function (app: App) {
           case 2:
             return 2;
           case 4:
-            return 1;
-          case 5:
             return 1;
           default:
             return 3;
