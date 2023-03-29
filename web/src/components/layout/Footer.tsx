@@ -85,7 +85,7 @@ export default function Footer() {
                   <h4 className="footer-title">Giới thiệu</h4>
                   <div className="footer-content">
                     <p>
-                      THE FACE SHOP biết cách kết hợp giữa tinh túy của khoa học
+                      XChange biết cách kết hợp giữa tinh túy của khoa học
                       và sự hoàn hảo của thiên nhiên để mang đến những sản phẩm
                       tốt nhất cho làn da của bạn.
                     </p>
@@ -169,7 +169,7 @@ export default function Footer() {
                             className="fb-xfbml-parse-ignore"
                           >
                             <a href="https://www.facebook.com/AziWorld-Viet-Nam-908555669481794/">
-                              TheFaceShop
+                              XChange
                             </a>
                           </blockquote>
                         </div>
@@ -198,8 +198,8 @@ export default function Footer() {
               style={{ textAlign: "center", paddingBottom: 15 }}
             >
               <p>
-                Copyright © 2022{" "}
-                <a href="https://runner-inn.myharavan.com"> TheFaceShop</a>.
+                Copyright © 2023{" "}
+                <a href="https://runner-inn.myharavan.com"> XChange</a>.
               </p>
             </div>
           </div>

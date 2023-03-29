@@ -3026,9 +3026,7 @@
     top: 50%;
     transform: translateY(-50%);
   }
- .slick-slide img{
-   height: 403px !important;
- } 
+ 
  .quantity{
   position: relative;
   z-index: 1;

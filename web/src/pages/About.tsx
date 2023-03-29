@@ -7,79 +7,71 @@ export default function About() {
       <Header title="about-us" />
       <section className="main-content-section mt-7">
         <div className="container">
-          {/* <div className="row">
-                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div className="single-about-info">
-                                <div className="our-company">
-                                    <strong>B.Store mang đến cho khách hàng những dịch tốt nhất luôn luôn cập nhật những xu hướng thời trang mới nhất đến người dùng.</strong>
-                                    <p>B.Store mang đến cho khách hàng những dịch tốt nhất luôn luôn cập nhật những xu hướng thời trang mới nhất đến người dùng.</p>
-                                    <div className="company-list-menu">
-                                        <ul>
-                                            <li>Sản phẩm lượng hàng đầu</li>
-                                            <li>Dịch vụ khách hàng tốt nhất</li>
-                                            <li>Đamt bảo hoàn tiền tong 30 ngày</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div className="single-about-info">
-                                <div className="our-team">
-                                    <strong>B.Store mang đến cho khách hàng những dịch tốt nhất. </strong>
-                                    <p>B.Store mang đến cho khách hàng những dịch tốt nhất luôn luôn cập nhật những xu hướng thời trang mới nhất đến người dùng.</p>
-                                    <p>B.Store mang đến cho khách hàng những dịch tốt nhất luôn luôn cập nhật những xu hướng thời trang mới nhất đến người dùng.</p>
-                                    <p>B.Store mang đến cho khách hàng những dịch tốt nhất luôn luôn cập nhật những xu hướng thời trang mới nhất đến người dùng.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div className="single-about-info">
-                                <div className="our-testimonials">
-                                    <div className="single-testimonials">
-                                        <div className="testimonials-text">
-                                            <span className="before" />Sản phẩm của B.store luôn khiến tôi hài lòng dịch vụ đổi trả cũng rất tốt.
-                                            <span className="after" />
-                                        </div>
-                                    </div>
-                                    <p>Phản hồi của khách hàng</p>
-                                    <div className="single-testimonials">
-                                        <div className="testimonials-text">
-                                            <span className="before" /> Sản phẩm của B.store luôn khiến tôi hài lòng dịch vụ đổi trả cũng rất tốt.
-                                            <span className="after" />
-                                        </div>
-                                    </div>
-                                    <p>Phản hồi của khách hàng</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
           <div className="row">
             <div className="content-about">
-              Thiên nhiên luôn hiện diện quanh ta, không quá xa vời và được chứa
-              đựng trọn vẹn trong từng sản phẩm của THE FACE SHOP bởi THE FACE
-              SHOP biết cách kết hợp giữa tinh túy của khoa học và sự hoàn hảo
-              của thiên nhiên để mang đến những sản phẩm tốt nhất cho làn da của
-              bạn. Chúng tôi tin vào sự cân bằng "thông thái" của thiên nhiên
-              Trong thiên nhiên hoang sơ luôn tồn tại một sự cân bằng "thông
-              thái" hay còn gọi là sự cân bằng của thiên nhiên, ví dụ như sự cân
-              bằng của ánh sáng, của độ ẩm, của âm dương,... một sự cân bằng bền
-              vững được duy trì đến mức hoàn hảo. Thấu hiểu được giá trị đó, THE
-              FACE SHOP mạnh dạn ứng dụng vào trong từng sản phảm với mong muốn
-              trở thành "thiên nhiên thứ 2" chăm sóc hoàn hảo cho làn da của
-              bạn. Chúng tôi truyền tải câu chuyện trung thực từ thiên nhiên
-              Thiên nhiên luôn sở hữu những bí mật quý giá mà nhân loại đang cất
-              công tìm kiếm. Hãy lắng nghe câu chuyện của thiên nhiên được kể
-              bởi THE FACE SHOP. Hãy để các câu chuyện sống động nhưng nhẹ nhàng
-              và quyến rũ từ thiên nhiên được minh chứng một cách trọn vẹn và
-              đầy sức thuyết phục trên làn da của bạn. Chúng tôi hành động vì
-              làn da của bạn Nguồn năng lượng thiên nhiên trong luôn tôn trọng
-              quy luật cân bằng của tự nhiên và thẩm thấu vào da một cách tuyệt
-              vời mà không làm tổn hại đến làn da mong manh của bạn. Chúng tôi
-              cam kết rằng những tinh túy từ thiên nhiên được mang đến cho làn
-              da của bạn một cách trọn vẹn và trung thực nhất. Hãy để mang đến
-              thiên nhiên cho làn da của bạn và đó cũng là cam kết của đối với
-              tất cả các thượng đế của mình.
+              XChange chuyên cung cấp máy chơi game chính hãng Sony, Nintendo và
+              Microsoft. Luôn cam kết dịch vụ giá cả cạnh tranh và chế độ bảo
+              hành tốt nhất cho mọi sản phẩm bán ra.
+              <br></br>
+                <b>Các trường hợp hoàn trả:</b>
+              Hoàn trả ngay sau khi nhận hàng nếu hàng hóa do GamesCenter Store
+              cung cấp không đúng mã hàng, chất lượng hàng hóa, không đúng mô tả
+              với đơn đặt hàng của khách hàng. Hàng bị hư hỏng do quá trình vận
+              chuyển. 
+              <br />
+              Hàng bị lỗi không sử dụng được, hỏng hóc kỹ thuật do nhà
+              sản xuất. Khi xảy ra các trường hợp như trên, quý khách vui lòng
+              không nhận hàng và yêu cầu nhân viên giao nhận của chúng tôi xác
+              nhận tình trạng máy ngay tại chỗ và yêu cầu đổi trả. 
+              <br />
+              Thời gian để
+              áp dụng chính sách hoàn trả do các trường hợp trên là 3 ngày. Quá
+              thời hạn 3 ngày, xin áp dụng các điều khoản khác bên dưới. 
+              <br />
+              Điều
+              kiện và quy định đổi trả chung: Bảo hành đổi mới đối với những
+              thiết bị bán ra trong vòng từ 7 đến 10 ngày tùy sản phẩm nếu có
+              lỗi từ nhà sản xuất. Hỗ trợ: do thời gian gởi bảo hành có thể lên
+              đến 30 ngày, nếu không có sản phẩm để sử dụng, bạn sẽ được cửa
+              hàng hỗ trợ cho mượn thiết bị để sử dụng tạm thời và thương lượng
+              với bạn việc trao đổi thiết bị khác thật hợp lý, nếu như sản phẩm
+              bảo hành của bạn đã hết không còn bán trên thị trường. 
+              <br />
+              Sản phẩm bị
+              lỗi kỹ thuật được cửa hàng xác định và nhìn nhận là lỗi do nhà sản
+              xuất. Còn đầy đủ bao bì, vỏ hộp, không bị trầy xước, móp méo, hỏng
+              hóc bên ngoài, đổ vỡ... Còn đầy đủ linh kiện, phụ kiện. Thời gian
+              đổi hàng không quá 30 ngày kể từ khi nhận hàng (căn cứ theo hóa
+              đơn mua hàng hoặc biên lai ký nhận của bên giao hàng). 
+              <br />
+              Tuy nhiên
+              đối với một số sản phẩm (như phụ kiện, dán màn hình, ốp lưng, phụ
+              kiện game....) chúng tôi sẽ không áp dụng những điều kiện đổi trả
+              giống như trên, trong quá trình tư vấn bán hàng chúng tôi sẽ tư
+              vấn cụ thể về thời hạn cũng như hình thức đổi trả cho từng sản
+              phẩm để khách hàng tham khảo khi có nhu cầu mua sản phẩm đó.
+              <br />
+               <b>Chính
+              sách 30 ngày hoàn trả:</b> Trong thời gian 30 ngày sử dụng, quý khách
+              thấy sản phẩm không còn hợp với mình nữa, không có nhu cầu sử dụng
+              sản phẩm này nữa, không thích sản phẩm đã mua nữa.... Cửa hàng hỗ
+              trợ hoàn trả lại sản phẩm đã mua nhận lại 60% giá trị ban đầu. (1
+              số sản phẩm sẽ thỏa thuận giá nhận lại) Sản phẩm hoàn trả còn đầy
+              đủ bao bì, vỏ hộp nguyên vẹn, sản phẩm không bị trầy xước, móp
+              méo, hỏng hóc, rơi vỡ hay vào nước. Còn đầy đủ linh kiện, phụ
+              kiện. Thỏa thuận trực tiếp với các sản phẩm quá thời gian 30 ngày
+              hoặc không đủ các điều kiện trên. Không áp dụng với các sản phẩm
+              phụ kiện: Ốp lưng, miếng dán, balo túi xách, phụ kiện Game, dịch
+              vụ... Phương thức trả hàng đã mua: Mang trực tiếp sản phẩm đến cửa
+              hàng để trả lại hàng hoặc chuyển phát nhanh sản phẩm nếu sản phẩm
+              không giống với đơn hàng đã đặt mua. Thời hạn hoàn trả: 01 đến 03
+              ngày kể từ khi nhận được hàng (Yêu cầu hàng hóa giữ nguyên hiện
+              trạng ban đầu khi nhận hàng, không sử dụng). Chính sách hoàn tiền:
+              Thời hạn hoàn trả tiền: 01 đến 03 ngày kể từ khi nhận được hàng.
+              Yêu cầu hàng hóa không được qua sử dụng. Cách thức lấy lại tiền:
+              tiền mặt hoặc chuyển khoản qua tài khoản do khách hàng cung cấp.
+              Chi phí do việc hoàn trả: do hai bên tự thỏa thuận và tính mức chi
+              phí hợp lý phù hợp với mức thiệt hại (nếu có) của các bên.
             </div>
           </div>
         </div>

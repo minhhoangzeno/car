@@ -25,10 +25,11 @@ export default function Home() {
       </div>
 
       <div className="content">
-        <FormMail />
+      
+        <SlideBanner />
         <RunnerInn />
         <BestSeller />
-        <SlideBanner />
+        <FormMail />
         <HomeBanner />
         <NewProduct />
         <NewBlog />

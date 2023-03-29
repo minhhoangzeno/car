@@ -1,9 +1,9 @@
-import IMG from '../../assets/images/img_1.webp';
-import IMG1 from '../../assets/images/img_2.webp';
-import IMG2 from '../../assets/images/img_3.webp';
-import IMG3 from '../../assets/images/img_4.webp';
-import IMG4 from '../../assets/images/img_1.webp';
-import IMG5 from '../../assets/images/img_2.webp';
+import IMG from '../../assets/images/1.webp';
+import IMG1 from '../../assets/images/2.webp';
+import IMG2 from '../../assets/images/3.webp';
+import IMG3 from '../../assets/images/4.webp';
+import IMG4 from '../../assets/images/5.webp';
+import IMG5 from '../../assets/images/6.webp';
 
 
 // const access_token = localStorage.getItem("token");

@@ -718,7 +718,7 @@ h3.post_title {
 	background-size: cover;
 	padding: 60px 0;
 	text-align: center;
-	background-image: url(../assets/images/banner_1.webp);
+	background-image: url(../assets/images/peakpx.jpg);
 }
 .content-newsletter {
 	color: #fff;
@@ -3667,4 +3667,7 @@ input#file.inputfile{
 
 input:focus{
 	outline: none !important;
+}
+.sticky-top{
+	z-index: 2 !important;
 }

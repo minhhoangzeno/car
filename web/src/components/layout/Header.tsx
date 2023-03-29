@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 import { useToasts } from 'react-toast-notifications';
 // import '../../assets/css/classy-nav.css';
 // import img from '../../assets/images/bg-img/24.jpg';
-import Logo from '../../assets/images/logo.webp';
+import Logo from '../../assets/images/logo3.png';
 import { apiUrl } from '../../enviroments';
 import { AccountInterface } from '../../models/account.interface';
 // import { ProductInterface } from '../../models/product.interface';
